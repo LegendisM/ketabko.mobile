@@ -1,0 +1,42 @@
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create(
+    {
+        container:{
+            flex:1,
+            backgroundColor:'#fad97b',
+            flexDirection:'column',
+            justifyContent:'center',
+            alignItems:'center'
+        },
+        itemLogo:{
+            width:256,
+            height:256
+        },
+        itemTitle:{
+            fontFamily:'Black',
+            fontSize:22,
+            marginBottom:8
+        },
+        itemDescription:{
+            fontFamily:'Medium',
+            fontSize:14,
+            width:'90%',
+            textAlign:'center'
+        },
+        itemButton:{
+            position:'absolute',
+            backgroundColor:'#e91e63',
+            padding:8,
+            borderRadius:4,
+            bottom:10,
+            width:'50%',
+        },
+        itemButtonText:{
+            fontFamily:'Medium',
+            fontSize:16,
+            textAlign:'center',
+            color:'white'
+        }
+    }
+);
